@@ -1,42 +1,119 @@
 <!DOCTYPE html>
 <html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Primeira Página</title>
-    
-    <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Cabeçalho fixo -->
     <header>
-        <h1>Primeira Página Web!</h1>
-        <nav>
-            <a href="cidades/index.html">Aracaju</a>
-        </nav>
+      <p>menu fixo</p>
     </header>
 
     <main>
-        <p>Eis a minha primeira página Web!</p>
-        <p>
-            Na Unidade Curricular de
+      <!-- HERO -->
+      <section
+        id="inicio"
+        class="hero-image">
+        <!-- Navegação dentro da hero -->
+        <nav class="hero-nav">
+          <ul>
+            <li><a href="#inicio">Início</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#interfaces">Interfaces Web</a></li>
+          </ul>
+        </nav>
 
-            <a href="https://moodle.ensinolusofona.pt/course/view.php?id=11232">
-                Desenvolvimento de Interface Web
+        <div class="hero-text">
+          <h1>Jânio Almeida</h1>
+          <p>E sou um estudante da Universidade Lusófona</p>
+          <a
+            href="#projetos"
+            class="cta-btn"
+            >Me conheça</a
+          >
+        </div>
+      </section>
+
+      <!-- Seções -->
+      <!-- Seção dos projetos -->
+      <section id="projetos">
+        <h2>Meus Projetos</h2>
+        <div class="projects-container">
+          <div class="project-card">
+            <h3>Projeto 1</h3>
+            <p>Descrição breve do projeto 1. 🚀</p>
+            <a
+              href="#"
+              class="card-btn"
+              >Ver mais</a
+            >
+          </div>
+
+          <div class="project-card">
+            <h3>Projeto 2</h3>
+            <p>Descrição breve do projeto 2. 🔥</p>
+            <a
+              href="#"
+              class="card-btn"
+              >Ver mais</a
+            >
+          </div>
+
+          <div class="project-card">
+            <h3>Projeto 3</h3>
+            <p>Descrição breve do projeto 3. 🎉</p>
+            <a
+              href="#"
+              class="card-btn"
+              >Ver mais</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- Seção Interfaces Web -->
+      <section
+        id="interfaces"
+        class="interfaces-section">
+        <div class="interfaces-content">
+          <h2>Interfaces Web</h2>
+          <p>Eis a minha primeira página Web!</p>
+          <p>
+            Na Unidade Curricular de
+            <a
+              href="https://moodle.ensinolusofona.pt/course/view.php?id=11232"
+              target="_blank">
+              Desenvolvimento de Interface Web
             </a>
-            abordaremos as seguintes tecnologias Web &#127760;:
-        </p>
-        <ul>
+            abordaremos as seguintes tecnologias Web 🌐:
+          </p>
+          <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>Javascript</li>
             <li>React e Next.js</li>
-        </ul>
-        <p>Iremos criar soluções criativas!</p>
-        <img src="images/diw.png" alt="Desenvolvimento de Interfaces Web">
+          </ul>
+          <p>Iremos criar soluções criativas!</p>
+        </div>
+
+        <div class="interfaces-image">
+          <img
+            src="images/diw.png"
+            alt="Desenvolvimento de Interfaces Web" />
+        </div>
+      </section>
     </main>
-    
+
     <footer>
-        <p>Universidade Lusófona © 2025</p>
+      <p>©</p>
     </footer>
-</body>
+  </body>
 </html>
