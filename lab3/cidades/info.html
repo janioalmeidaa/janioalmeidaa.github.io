@@ -1,86 +1,123 @@
 <!DOCTYPE html>
 <html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Aracaju - Informações</title>
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+  </head>
 
-<head>
-    <meta charset="UTF-8">
-    <title>Aracaju</title>
-</head>
-
-<body>
+  <body>
     <header>
-        <h1>Aracaju</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="local.html">Localização</a>
-            <a href="multimedia.html">Multimédia</a>
-            <a href="info.html">Informação</a>
-        </nav>
+      <h1>Aracaju</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="local.html">Localização</a>
+        <a href="multimedia.html">Multimédia</a>
+        <a href="info.html">Informação</a>
+      </nav>
     </header>
 
-    <main>
-        <section>
-            <h2>Origem do nome</h2>
-            <p>
-                Aracaju significa “cajueiro dos papagaios”. A palavra é composta por "ará", que remete a “papagaio”,
-                e “acayú”, que significa “fruto do cajueiro”. Essa interpretação é bastante citada, embora existam
-                outras versões históricas.
-            </p>
-        </section>
+    <main class="info-main">
+      <section
+        class="info-section info-origem"
+        style="grid-column: span 2">
+        <h2>Origem do nome</h2>
+        <p>
+          Aracaju significa “cajueiro dos papagaios”. A palavra é composta por
+          "ará", que remete a “papagaio”, e “acayú”, que significa “fruto do
+          cajueiro”.
+        </p>
+      </section>
 
-        <section>
-            <h2>Dados demográficos</h2>
-            <dl>
-                <dt>População:</dt>
-                <dd>628.849 habitantes (2024)</dd>
-                <dt>Área:</dt>
-                <dd>182,16 km²</dd>
-                <dt>Densidade populacional:</dt>
-                <dd>3.300 hab/km²</dd>
-            </dl>
-        </section>
+      <section class="info-section info-imagem">
+        <h2>Imagem da cidade</h2>
+        <img
+          src="https://media.istockphoto.com/id/2169431417/pt/foto/arches-on-the-shore-of-atalaia-beach.jpg?s=1024x1024&w=is&k=20&c=KWQKuodHOXfS6l-ezgEoC5-X1-X0Emdw9Z7h_XeHMXc="
+          alt="Praia de Aracaju"
+          class="info-img" />
+      </section>
 
-        <section>
-            <h2>Política</h2>
-            <p>
-                A prefeita em exercício desde 2025 é <strong>Emília Corrêa Santos Bezerra</strong>.
-                O gentílico usado para quem nasce em Aracaju é “aracajuano”.
-            </p>
-        </section>
+      <section class="info-section info-demografia">
+        <h2>Dados demográficos</h2>
+        <table class="info-table">
+          <tr>
+            <th>População</th>
+            <td colspan="2">628.849 habitantes (2024)</td>
+          </tr>
+          <tr>
+            <th rowspan="2">Área</th>
+            <td>182,16 km²</td>
+            <td>Densidade: 3.300 hab/km²</td>
+          </tr>
+          <tr>
+            <td colspan="2">Localização: Nordeste do Brasil</td>
+          </tr>
+          <tr>
+            <th>Gentílico</th>
+            <td colspan="2">Aracajuano</td>
+          </tr>
+        </table>
+      </section>
 
-        <section>
-            <h2>Economia</h2>
-            <p>
-                A economia de Aracaju é predominantemente do setor terciário, respondendo por cerca de 55% do PIB
-                municipal,
-                concentrando aproximadamente 40% do PIB do estado de Sergipe. A cidade também cresce nos setores de
-                educação, saúde privada, turismo, comércio e serviços.
-            </p>
-        </section>
+      <section class="info-section info-politica">
+        <h2>Política</h2>
+        <p>
+          A prefeita em exercício desde 2025 é
+          <strong>Emília Corrêa Santos Bezerra</strong>.
+        </p>
+      </section>
 
-        <section>
-            <h2>Turismo e cultura</h2>
-            <p>
-                Aracaju oferece atrações turísticas naturais e culturais, como praias (Atalaia, Aruana, Mosqueiro),
-                manguezais, Oceanário, feiras de artesanato, o Museu da Gente Sergipana, o Centro Histórico e praças
-                históricas.
-                A orla moderna possui infraestrutura de lazer e atividades culturais.
-            </p>
-        </section>
+      <section class="info-section info-economia">
+        <h2>Economia</h2>
+        <p>
+          A economia de Aracaju é predominantemente do setor terciário, com
+          destaque para comércio, turismo e serviços.
+        </p>
+      </section>
 
-        <section>
-            <h2>Infraestrutura e qualidade de vida</h2>
-            <p>
-                A cidade possui transporte público integrado, ciclovias, boa oferta de equipamentos culturais, serviços
-                de saúde e educação.
-                A prefeitura investe em mobilidade urbana, limpeza, espaços de convivência e atração de investimentos no
-                turismo.
-            </p>
-        </section>
+      <section class="info-section info-curiosidades">
+        <h2>Curiosidades sobre Aracaju</h2>
+        <ul>
+          <li>A cidade foi planejada antes de ser construída.</li>
+          <li>Possui uma das orlas mais extensas e bonitas do Brasil.</li>
+          <li>
+            É famosa pela gastronomia com pratos típicos de frutos do mar.
+          </li>
+          <li>
+            O forró é a música símbolo da região, especialmente nas festas
+            juninas.
+          </li>
+          <li>
+            É considerada uma das capitais mais baratas do Nordeste para se
+            viver.
+          </li>
+        </ul>
+      </section>
+
+      <section class="info-section info-vazio"></section>
+      <!-- Espaço vazio proposital -->
+
+      <section class="info-section info-turismo">
+        <h2>Turismo e cultura</h2>
+        <p>
+          Aracaju oferece atrações turísticas naturais e culturais, como praias,
+          manguezais, Oceanário e feiras de artesanato.
+        </p>
+      </section>
+
+      <section class="info-section info-infraestrutura">
+        <h2>Infraestrutura e qualidade de vida</h2>
+        <p>
+          A cidade possui transporte público integrado, ciclovias, equipamentos
+          culturais e boas condições de mobilidade.
+        </p>
+      </section>
     </main>
 
-    <footer>
-        <p>DIW 2025</p>
+    <footer class="info-footer">
+      <p>DIW 2025</p>
     </footer>
-</body>
-
+  </body>
 </html>

@@ -27,14 +27,13 @@ header {
 /* Hero section */
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url('photographer.jpg');
+    url('imagem1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 
   height: 90vh;
   position: relative;
-  margin-top: 10vh;
 }
 
 /* NAV dentro da hero */
@@ -108,7 +107,6 @@ section#projetos {
 }
 
 section#interfaces {
-  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -143,7 +141,7 @@ footer {
 .projects-container {
   display: flex;
   gap: 20px;
-  flex-wrap: wrap; /* quebra linha se não couber */
+  flex-wrap: wrap;
   justify-content: center;
 }
 
